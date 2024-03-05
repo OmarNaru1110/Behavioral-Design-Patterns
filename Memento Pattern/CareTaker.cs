@@ -14,7 +14,6 @@ namespace Memento_Pattern
         {
             _editor = editor;
             _history = new Stack<Memento>();
-            _history.Push(_editor.Save());
         }
         public void Backup()
         {
@@ -30,6 +29,8 @@ namespace Memento_Pattern
         }
         public void GetCurrentState()
         {
+            if(_history.Count == 0) 
+                return;
             foreach (var ch in _history.Peek().ToString())
             {
                 Console.Write(ch);

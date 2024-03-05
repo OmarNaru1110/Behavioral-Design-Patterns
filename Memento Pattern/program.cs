@@ -17,9 +17,12 @@ namespace Memento_Pattern
             //it's like checkpoints in games
             Editor editor = new Editor("hello");
             CareTaker careTaker = new(editor);
+            careTaker.Backup();
             careTaker.GetCurrentState();
             editor.AppendText(" naru");
             careTaker.Backup();
+            careTaker.GetCurrentState();
+            careTaker.Undo();
             careTaker.GetCurrentState();
         }
     }
