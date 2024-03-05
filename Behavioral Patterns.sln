@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Command Pattern", "Command 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "State Pattern", "State Pattern\State Pattern.csproj", "{A66ED0BD-CFBC-447B-BF1F-0E91D7D313F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Visitor Pattern", "Visitor Pattern\Visitor Pattern.csproj", "{9F56D5B5-FDA6-49C9-9723-93DAB4E86D33}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Visitor Pattern", "Visitor Pattern\Visitor Pattern.csproj", "{9F56D5B5-FDA6-49C9-9723-93DAB4E86D33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memento Pattern", "Memento Pattern\Memento Pattern.csproj", "{9923D653-E13B-4F0E-9C6F-8A9A787D0122}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{9F56D5B5-FDA6-49C9-9723-93DAB4E86D33}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F56D5B5-FDA6-49C9-9723-93DAB4E86D33}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F56D5B5-FDA6-49C9-9723-93DAB4E86D33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9923D653-E13B-4F0E-9C6F-8A9A787D0122}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9923D653-E13B-4F0E-9C6F-8A9A787D0122}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9923D653-E13B-4F0E-9C6F-8A9A787D0122}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9923D653-E13B-4F0E-9C6F-8A9A787D0122}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
